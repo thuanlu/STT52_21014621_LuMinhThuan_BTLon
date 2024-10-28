@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vé Tàu</title>
+    <link rel="website icon" type="png" href="../IMG/logo.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="../bootstrap/bootstrap.min.css">
+    <script src="../bootstrap/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="../CSS/Home.css">
+    <link rel="stylesheet" href="../CSS/VeTau.css">
+    <link rel="stylesheet" href="../CSS/responsive.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <script src="../JS/jquery-3.4.1.min.js"></script>
+</head>
+
+
+<body>
+    <div class="container-fluid">
+        <div class="row row_header">
+            <div class="row row_1">
+                <ul class="ul_left">
+                    <li><a href="#">Kênh đối tác</a></li>
+                    <li style="color: white;">|</li>
+                    <li><a href="#">Trở thành thành viên</a></li>
+                    <li style="color: white;">|</li>
+                    <li style="color: white;"><a href="#">Kết nối</a></li>
+                    <li><a href="#"><img src="../IMG/MXH/icon_fb.png" alt=""></a></li>
+                    <li><a href="#"><img src="../IMG/MXH/icon_ig.png" alt=""></a></li>
+                </ul>
+
+                <ul class="ul_right text-end">
+                    <li><a href="#">Thông báo</a></li>
+                    <li style="color: white;">|</li>
+                    <li><a href="../HTML/DangKy.html">Đăng ký</a></li>
+                    <li style="color: white;">|</li>
+                    <li><a href="../HTML/DangNhap.html">Đăng nhập</a></li>
+                </ul>
+            </div>
+
+            <nav class="navbar navbar-expand-md navbar-light bg-light p-0">
+                <div class="container row_2">
+                    <a class="logo2" href="../HTML/Home.html">
+                        <img id="logo-clockworld2" src="../IMG/logo.jpg" alt="">
+                        <i id="text_tourworld">TourWorld</i>
+                    </a>
+
+                    <div class="btn_menu">
+                        <button class="navbar-toggler d-lg-none" id="btn_navbar" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    </div>
+
+                    <a class="nav-link dropdown-toggle" data-bs-toggle="modal" data-bs-target=".modal_address"
+                        id="li_address2" href="#">
+                        <br><span>Hồ Chí Minh</span>
+                    </a>
+
+                    <form class="d-flex my-2 my-lg-0 form_search2">
+                        <input class="search2" type="text" placeholder="Bạn muốn đi đâu?" autofocus>
+                    </form>
+
+                    <div class="collapse navbar-collapse menu_1" id="collapsibleNavId">
+                        <ul class="navbar-nav">
+                            <li class="nav-item m-0 li_logo">
+                                <a class="nav-link logo" href="../HTML/Home.html">
+                                    <img id="logo-clockworld" src="../IMG/logo.jpg" alt="">
+                                    <i id="text_clockworld">TourWorld</i>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../HTML/Home.html"><i class="bi bi-house"></i>Trang chủ</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../HTML/GioiThieu.html">Giới thiệu</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../HTML/KhachSan.html">Khách sạn</a>
+                            </li>
+                            <li class="nav-item text-center address1" id="">
+                                <a class="nav-link dropdown-toggle" data-bs-toggle="modal"
+                                    data-bs-target=".modal_address" id="li_address" href="#">
+                                    <br><span>Hồ Chí Minh</span>
+                                </a>
+                            </li>
+                            <li class="nav-item" id="input_search">
+                                <a class="nav-link" id="search" style="padding-right: 0;" href="#">
+                                    <form class="d-flex my-2 my-lg-0 form_search">
+                                        <input class="search" type="text" placeholder="Bạn muốn đi đâu?" autofocus>
+                                    </form>
+                                </a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown"
+                                    aria-haspopup="true" aria-expanded="false">
+                                    <img id="dong_ho" src="../IMG/tour.png" alt="">
+                                    Tour
+                                </a>
+                                <div class="dropdown-menu" style="width: 150px;" aria-labelledby="dropdownId">
+                                    <a class="dropdown-item p-0" href="../HTML/TourTrongNuoc.html">Trong nước</a>
+                                    <a class="dropdown-item p-0" href="../HTML/TourNgoaiNuoc.html">Ngoài nước</a>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../HTML/VeTau.html">
+                                    <img id="smartWatch" src="../IMG/VeTau/veTau.jpg" alt=""></i> Vé tàu</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../HTML/HoiDap.html">Hỏi đáp</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                    <img src="../IMG/icon_cart.png" id="icon_cart" alt="">
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#" id="account">
+                                    <img src="../IMG/icon_user.png" id="icon_account" alt="">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        <div class="row row_33">
+            <div class="col-12 text-center">
+                <h1 style="color: rgb(161, 211, 45);">Đặt Vé Tàu</h1>
+            </div>
+        </div>
+
+        <div class="container ticket-booking-main-container">
+            <div class="row">
+                <!-- Left column: Suggested Tickets -->
+                <div class="col-lg-6 col-sm-12">
+                    <div class="suggested-tickets">
+                        <h3 class="text-center">Vé Tàu Hiện Có</h3>
+                        <div class="suggested-ticket-list">
+                            <!-- Ticket Card 1 -->
+                            <div class="ticket-card">
+                                <div class="ticket-info">
+                                    <div class="departure-time text-danger">
+                                        06:10 10/12
+                                    </div>
+                                    <div class="route">
+                                        Hà Nội
+                                    </div>
+                                    <div class="duration">
+                                        36 giờ
+                                    </div>
+                                    <div class="arrival-time text-danger">
+                                        18:10 21/12
+                                    </div>
+                                    <div class="destination">
+                                        Sài Gòn
+                                    </div>
+                                    <div class="price">
+                                        1.031.000đ
+                                    </div>
+                                    <div class="select-button">
+                                        <button class="btn btn-primary select-ticket"
+                                            onclick="fillBookingForm('Hà Nội', 'Sài Gòn', '2024-10-27', '06:10')">Chọn</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Ticket Card 2 -->
+                            <div class="ticket-card">
+                                <div class="ticket-info">
+                                    <div class="departure-time text-danger">
+                                        14:20 10/11
+                                    </div>
+                                    <div class="route">
+                                        Đà Nẵng
+                                    </div>
+                                    <div class="duration">
+                                        18 giờ 30 phút
+                                    </div>
+                                    <div class="arrival-time text-danger">
+                                        08:50 11/11
+                                    </div>
+                                    <div class="destination">
+                                        Nha Trang
+                                    </div>
+                                    <div class="price">
+                                        850.000đ
+                                    </div>
+                                    <div class="select-button">
+                                        <button class="btn btn-primary select-ticket"
+                                            onclick="fillBookingForm('Đà Nẵng', 'Nha Trang', '2024-10-27', '14:20')">Chọn</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Ticket Card 3 -->
+                            <div class="ticket-card">
+                                <div class="ticket-info">
+                                    <div class="departure-time text-danger">
+                                        10:00 28/11
+                                    </div>
+                                    <div class="route">
+                                        Hồ Chí Minh
+                                    </div>
+                                    <div class="duration">
+                                        8 giờ
+                                    </div>
+                                    <div class="arrival-time text-danger">
+                                        18:00 29/11
+                                    </div>
+                                    <div class="destination">
+                                        Phan Thiết
+                                    </div>
+                                    <div class="price">
+                                        500.000đ
+                                    </div>
+                                    <div class="select-button">
+                                        <button class="btn btn-primary select-ticket"
+                                            onclick="fillBookingForm('Hồ Chí Minh', 'Phan Thiết', '2024-10-27', '10:00')">Chọn</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Ticket Card 4 -->
+                            <div class="ticket-card">
+                                <div class="ticket-info">
+                                    <div class="departure-time text-danger">
+                                        22:15 27/11
+                                    </div>
+                                    <div class="route">
+                                        Hải Phòng
+                                    </div>
+                                    <div class="duration">
+                                        20 giờ 45 phút
+                                    </div>
+                                    <div class="arrival-time text-danger">
+                                        19:00 28/11
+                                    </div>
+                                    <div class="destination">
+                                        Huế
+                                    </div>
+                                    <div class="price">
+                                        1.200.000đ
+                                    </div>
+                                    <div class="select-button">
+                                        <button class="btn btn-primary select-ticket"
+                                            onclick="fillBookingForm('Hải Phòng', 'Huế', '2024-10-27', '22:15')">Chọn</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right column: Ticket Booking Form -->
+                <div class="col-lg-6 col-sm-12">
+                    <div class="ticket-booking-form">
+                        <h3 class="text-center">Đặt Vé Tàu</h3>
+                        <form action="#" method="post">
+                            <div class="row mb-3">
+                                <div class="col-sm-6">
+                                    <label for="departure" class="form-label">Nơi Đi</label>
+                                    <input type="text" class="form-control" id="departure" placeholder="Nhập nơi đi">
+                                </div>
+                                <div class="col-sm-6">
+                                    <label for="destination" class="form-label">Nơi Đến</label>
+                                    <input type="text" class="form-control" id="destination" placeholder="Nhập nơi đến">
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <div class="col-sm-6">
+                                    <label for="date" class="form-label">Ngày Đi</label>
+                                    <input type="date" class="form-control" id="date">
+                                </div>
+                                <div class="col-sm-6">
+                                    <label for="time" class="form-label">Giờ Đi</label>
+                                    <input type="time" class="form-control" id="time">
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <label for="passenger" class="form-label">Số Lượng Hành Khách</label>
+                                <input type="number" class="form-control" id="passenger" min="1" value="1">
+                            </div>
+                            <div class="mb-3">
+                                <label for="class" class="form-label">Hạng Ghế</label>
+                                <select class="form-select" id="class">
+                                    <option value="economy">Hạng Phổ Thông</option>
+                                    <option value="business">Hạng Thương Gia</option>
+                                    <option value="first">Hạng Nhất</option>
+                                </select>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Đặt Vé</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row footer">
+            <div class="col-md-12 col_footer1">
+                <div class="text_col_footer1">
+                    <h5>LIÊN HỆ HỖ TRỢ</h5>
+                    <p><i class="fa-solid fa-phone"></i> Hotline 1: <span>032.848.2508</span></p>
+                    <p><i class="fa-solid fa-phone"></i> Hotline 2: <span>034.872.0408</span></p>
+                </div>
+            </div>
+
+            <div class="col-sm-12 col_footer2">
+                <div class="text_col_footer2">
+                    <h5>ĐỊA CHỈ</h5>
+                    <p><i class="fa-solid fa-location-dot"></i>
+                        <a href="https://s.pro.vn/suU8">12, Nguyễn Văn Bảo, P.4, Gò Vấp, Hồ Chí Minh</a>
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-sm-12 footer_contact">
+                <div class="text_footer_contact1">
+                    <h5>KẾT NỐI</h5>
+                    <p>
+                        <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.youtube.com/"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="https://www.tiktok.com/"><i class="fa-brands fa-tiktok"></i></a>
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-sm-12 footer_contact2">
+                <div class="text_footer_contact2">
+                    <h5>HỖ TRỢ KHÁCH HÀNG</h5>
+                    <p>Quy định chung</p>
+                    <p>Chính sách bảo hành</p>
+                    <p>Chính sách bảo mật</p>
+                </div>
+            </div>
+
+            <div class="col-sm-12 footer_img">
+                <div class="text_footer_img">
+                    <h5>CHỨNG NHẬN</h5>
+                    <a href="#"><img src="../IMG/bo_cong_thuong.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+
+        <!--modal dia diem-->
+        <div id="mymodal" class="modal fade modal_address" role="dialog">
+            <div class="modal-dialog modal_dialog_css">
+                <div class="modal-content">
+                    <div class="modal-header modal_header_css">
+                        <h4 style="width: 100%;" class="text-center">Địa điểm du lịch</h4>
+                        <div class="text-end close"><button type="button" class="close1 text-end"
+                                data-bs-dismiss="modal">&times;</button></div>
+                    </div>
+
+                    <div class="modal-body modal_body_css">
+                        <select name="" id="tinh">
+                            <option value="">Chọn tỉnh/thành phố</option>
+                            <option value="Hồ Chí Minh">Hồ Chí Minh</option>
+                            <option value="Đà Nẵng">Đà Nẵng</option>
+                            <option value="Hà Nội">Hà Nội</option>
+                        </select>
+
+                        <select name="" id="quan">
+                            <option value="">Chọn quận/huyện</option>
+                            <option value="Quận 1">Quận 1</option>
+                            <option value="Quận 2">Quận 2</option>
+                            <option value="Quận 3">Quận 3</option>
+                        </select>
+
+                        <select name="" id="phuong">
+                            <option value="">Chọn phường/xã</option>
+                            <option value="Phường 1">Phường 1</option>
+                            <option value="Phường 2">Phường 2</option>
+                            <option value="Phường 3">Phường 3</option>
+                        </select>
+                    </div>
+
+                    <div class="modal-footer modal_footer_css">
+                        <button class="btn btn-primary xac_nhan_css" data-bs-dismiss="modal" id="xacNhan">Xác
+                            nhận</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<!-- JavaScript placed at the bottom for better loading -->
+<script>
+   document.addEventListener("DOMContentLoaded", function () {
+    // Tìm tất cả các nút "Chọn" trong phần "Vé Tàu Đề Xuất"
+    const selectButtons = document.querySelectorAll(".select-ticket");
+
+    // Duyệt qua tất cả các nút và thêm sự kiện click
+    selectButtons.forEach(button => {
+        button.addEventListener("click", function (event) {
+            event.preventDefault(); // Ngăn chặn hành vi mặc định của nút
+
+            // Tìm phần tử "ticket-card" chứa nút được nhấn
+            const ticketCard = button.closest(".ticket-card");
+
+            // Lấy thông tin từ các phần tử con của "ticket-card"
+            const departure = ticketCard.querySelector(".route").textContent.trim();
+            const destination = ticketCard.querySelector(".destination").textContent.trim();
+
+            // Lấy giờ và ngày từ phần tử "departure-time"
+            const departureTimeText = ticketCard.querySelector(".departure-time").textContent.trim();
+            const [time, dayMonth] = departureTimeText.split(" ");
+
+            // Tách ngày và tháng từ "dayMonth"
+            const [day, month] = dayMonth.split("/");
+            const year = new Date().getFullYear();
+            const formattedDate = `${year}-${month.padStart(2, '0')}-${day.padStart(2, '0')}`;
+
+            // Điền thông tin vào form đặt vé
+            document.getElementById('departure').value = departure;
+            document.getElementById('destination').value = destination;
+            document.getElementById('date').value = formattedDate; // Cập nhật ngày chính xác từ vé
+            document.getElementById('time').value = time; // Cập nhật giờ từ vé
+        });
+    });
+
+    // Xử lý form đặt vé
+    const form = document.querySelector(".ticket-booking-form form");
+    form.addEventListener("submit", function (event) {
+        event.preventDefault();
+
+        // Lấy các giá trị từ form
+        const departure = document.getElementById("departure").value.trim();
+        const destination = document.getElementById("destination").value.trim();
+        const date = document.getElementById("date").value;
+        const time = document.getElementById("time").value;
+        const passenger = parseInt(document.getElementById("passenger").value);
+        const seatClass = document.getElementById("class").value;
+
+        let errorMessage = "";
+
+        // Kiểm tra các trường bắt buộc phải nhập
+        if (departure === "") {
+            errorMessage += "Nơi đi không được để trống.\n";
+        }
+
+        if (destination === "") {
+            errorMessage += "Nơi đến không được để trống.\n";
+        }
+
+        if (date === "") {
+            errorMessage += "Ngày đi không được để trống.\n";
+        }
+
+        if (time === "") {
+            errorMessage += "Giờ đi không được để trống.\n";
+        }
+
+        if (isNaN(passenger) || passenger <= 0) {
+            errorMessage += "Số lượng hành khách phải lớn hơn 0.\n";
+        }
+
+        // Kiểm tra nơi đi và nơi đến không được trùng nhau
+        if (departure && destination && departure === destination) {
+            errorMessage += "Nơi đi và nơi đến không được trùng nhau.\n";
+        }
+
+        // Kiểm tra ngày đi phải là ngày hiện tại hoặc trong tương lai
+        const today = new Date();
+        const selectedDate = new Date(date);
+
+        // Đặt giờ về 0:00 cho việc so sánh ngày
+        today.setHours(0, 0, 0, 0);
+        selectedDate.setHours(0, 0, 0, 0);
+
+        if (selectedDate < today) {
+            errorMessage += "Ngày đi phải là ngày hiện tại hoặc trong tương lai.\n";
+        }
+
+        // Kiểm tra giờ đi nếu ngày đi là hôm nay
+        if (selectedDate.getTime() === today.getTime() && time !== "") {
+            const [selectedHour, selectedMinute] = time.split(":").map(Number);
+
+            // Lấy giờ và phút hiện tại
+            const currentHour = new Date().getHours();
+            const currentMinute = new Date().getMinutes();
+
+            if (selectedHour < currentHour || (selectedHour === currentHour && selectedMinute <= currentMinute)) {
+                errorMessage += "Giờ đi phải lớn hơn giờ hiện tại.\n";
+            }
+        }
+
+        // Nếu có lỗi, hiển thị thông báo lỗi
+        if (errorMessage) {
+            alert(errorMessage);
+            return;
+        }
+
+        // Nếu mọi điều kiện đều hợp lệ, hiển thị thông báo thành công
+        alert("Đặt vé thành công!");
+    });
+});
+</script>
+
+</html>

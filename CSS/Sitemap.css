@@ -1,0 +1,499 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clear{
+    clear: both;
+}
+
+.row_header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.row_1{
+    background-color: rgb(41, 40, 40);
+    min-height: 50px;
+    padding: 0 90px;
+    margin: 0; /*thanh header bi thu lai nen de nhu z*/
+}
+
+.row_1 ul {
+    margin: 0;
+}
+
+.ul_left, .ul_right{
+    padding: 0;
+    float: left;
+}
+
+.ul_left {
+    width: 55%;
+}
+
+.ul_right {
+    width: 45%;
+}
+
+.row_1 ul li {
+    display: inline-block;
+}
+
+.row_1 li > a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding-right: 5px;
+    line-height: 50px;
+}
+
+.row_1 li > a:hover, .row_2 li >a:hover{
+    color: gray;
+    transform: scale(1.05);
+}
+
+.row_1 li:last-child > a{
+    border: none;
+}
+
+.row_1 img{
+    width: 24px;
+    padding-bottom: 5px;
+}
+
+.row_2{
+    background-color: rgb(235, 233, 233);
+    height: 80px;
+    max-width: 100%;
+    padding: 0 !important;
+    margin-left: 0;
+    margin: 0 auto;
+}
+
+.row_2 #search:hover,
+.row_2 #search2:hover {
+    transform: scale(1) !important;
+}
+
+.row_2 .search,
+.row_2 .search2 {
+    width: 85%;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    margin: 3px 0 0 5px;
+}
+
+.row_2 .search:focus,
+.row_2 .search2:focus {
+    outline: none;
+}
+
+.search2 {
+    display: none;
+}
+
+.navbar-nav {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 !important;
+}
+
+.nav-link {
+    padding: 8px 0 !important;
+}
+
+.navbar-nav li:nth-child(1) {
+    width: 16%;
+}
+
+img#logo-clockworld {
+    width: 20% !important;
+    height: 10% !important;
+}
+
+.navbar-nav li:nth-child(2) {
+    width: 9%;
+}
+
+.navbar-nav li:nth-child(3) {
+    width: 9%;
+}
+
+.navbar-nav li:nth-child(7) {
+    width: 9%;
+}
+
+.navbar-nav li:nth-child(5) {
+    width: 13%;
+    padding-top: 0;
+}
+
+.navbar-nav li:nth-child(5) a {
+    padding: 0 !important;
+}
+
+.navbar-nav li:nth-child(6) {
+    width: 15%;
+}
+
+.navbar-nav li:nth-child(6) a {
+    padding: 0 !important;
+}
+
+.navbar-nav li:nth-child(7) {
+    width: 10%;
+}
+
+.navbar-nav li:nth-child(8) {
+    width: 11%;
+}
+
+.navbar-nav li:nth-child(4),
+.navbar-nav li:nth-child(9) {
+    width: 7%;
+}
+
+.navbar-nav li:nth-child(10),
+.navbar-nav li:nth-child(11) {
+    width: 4%;
+}
+
+.dropdown-toggle::after {
+    margin-left: -0.1rem;
+    /*chinh khoang cach cua icon voi menu*/
+}
+
+.navbar-nav li>a, #li_address2 {
+    color: black;
+    font-weight: 500;
+}
+
+.menu_1 li a>img {
+    width: 25px;
+    padding-bottom: 2px;
+}
+
+.menu_1 {
+    width: auto;
+    /* height: 100%; */
+    max-width: 100%;
+    margin: 0 auto;
+    padding-right: 10px;
+}
+
+.logo, .logo2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    padding: 0 8px !important;
+}
+
+.logo i, .logo2 i{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.logo i{
+    display: flex;
+}
+
+.logo2 {
+    display: none;
+}
+
+#icon_cart,
+#icon_account {
+    width: 25px;
+}
+
+#icon_cart:hover,
+#icon_account:hover {
+    transform: scale(1.2);
+}
+
+.dropdown-menu {
+    min-width: 80px !important;
+    margin-top: -10px !important;
+    margin-left: 30px;
+    text-align: center;
+}
+
+.dropdown-menu::before {
+    content: "";
+    width: 15px;
+    height: 15px;
+    background-color: white;
+    display: block;
+    border-top: 1px solid rgb(177, 174, 174);
+    border-left: 1px solid rgb(177, 174, 174);
+    transform: rotate(45deg);
+    margin-top: -16px;
+    margin-left: 20px;
+}
+
+.dropdown-item:hover {
+    background-color: transparent;
+    /*khi hover vào thì backgrround biến mất*/
+}
+
+.row_33{
+    padding-top: 30%;
+    background: url("../IMG/logo.jpg") top center / cover no-repeat;
+    margin-top: 136px;
+}
+
+.row_33 img {
+    width: 100%;
+    padding: 0;
+}
+
+.row_33 h1 {
+    text-align: center;
+    color: gold;
+    margin-top: -300px;
+    font-size: 150px;
+    font-style: italic;
+    text-shadow: 10px 10px 2px rgb(243, 239, 221);
+}
+
+.col_sidebar{
+    min-height: 300px;
+    text-align: center;
+}
+
+.footer{
+    background-color: black;
+    height: auto;
+    padding: 10px 0;
+}
+
+.row-con2{
+    height: auto;
+}
+
+.row_4{
+    min-height: 500px;
+    /* background: url("../img/site_map.png") top center / cover no-repeat; */
+}
+
+.text-center h3{
+    font-size: 30px;
+    margin-bottom: 0;
+    line-height: 70px;
+}
+
+.menu_1 ul li{
+    display: inline-block;
+    padding-top: 10px;
+}
+
+.li_logo{
+    padding-top: 7px !important;
+}
+
+.logo,
+.logo2 {
+    padding-left: 0;
+}
+
+#li_address, #li_address2 {
+    width: 90% !important;
+    border: 1px solid;
+    border-radius: 5px;
+    line-height: normal;
+    height: 60px;
+    padding-top: 3% !important;
+}
+
+#li_address::before, #li_address2::before {
+    width: 100%;
+    content: "Địa điểm giao hàng";
+    font-size: 8px;
+    height: 15px;
+}
+
+#li_address2{
+    display: none;
+}
+
+.footer h5{
+    color: yellow;
+    margin-bottom: 15px;
+}
+
+.footer p{
+    color: white;
+    line-height: 20px !important;
+    margin-bottom: 5px;
+}
+
+.col_footer1 span:hover, 
+.col_footer2 a:hover,
+.footer_contact a:hover,
+.footer_contact2 p:hover{
+    color: yellow;
+}
+
+.col_footer2 a,
+.footer_contact a {
+    text-decoration: none;
+    color: white;
+}
+
+/*demo*/
+.col_footer1{
+    width: 20%;
+}
+
+.text_col_footer1{
+    width: 100%;
+    transform: translateX(15%);
+}
+
+.col_footer2{
+    width: 25%;
+}
+
+.footer_contact{
+    width: 15%;
+}
+
+.fa-brands {
+    font-size: 30px;
+    margin-right: 5px;
+}
+
+.footer_contact2{
+    width: 20%;
+}
+
+.text_footer_contact2{
+    width: 100%;
+    transform: translateX(10%);
+}
+
+.footer_img{
+    width: 20%;
+}
+
+.footer_img img{
+    width: 90%;
+}
+
+.footer_contact img,
+.footer_contact svg {
+    width: 36px;
+    height: 36px;
+    margin-right: 10px;
+    border: 1px solid;
+    border-radius: 50%;
+    padding: 5px;
+    color: white;
+}
+
+/*Modal*/
+.close1 {
+    padding: 0 10px;
+    border: none;
+    background: none;
+    font-size: 30px;
+}
+
+.close {
+    float: right !important;
+    margin-bottom: 8px;
+}
+
+.modal {
+    --bs-modal-margin: 15%;
+}
+
+.modal_dialog_css{
+    width: 50%;
+}
+
+.modal_header_css {
+    height: 80px;
+}
+
+.modal_body_css select {
+    width: 100%;
+    height: 35px;
+    padding-left: 5px;
+}
+
+.modal_body_css select:nth-child(2),
+.modal_body_css select:nth-child(3) {
+    margin-top: 15px;
+}
+
+.modal_footer_css .xac_nhan_css {
+    width: 55%;
+    margin: 10px auto;
+    margin-bottom: 50px;
+}
+
+.col_sidebar .zalo{
+    position: fixed;
+    bottom: 250px;
+    right: 0;
+    margin-right: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    box-shadow: 0 0 15px rgb(0, 106, 255);
+    background-color: white;
+    animation: zalo  0.2s linear infinite;
+}
+
+.col_sidebar .mes{
+    position: fixed;
+    bottom: 180px;
+    right: 0;
+    margin-right: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px red;
+    background-color: white;
+    animation: mes 0.8s linear infinite;
+}
+
+.zalo > a, .mes > a{
+    font-size: 25px;
+    color: black;
+}
+
+@keyframes mes{
+    from{
+        transform: scale(0.8);
+    }
+    to{
+        transform: scale(1.1);
+        
+    }
+}
+
+@keyframes zalo{
+    from{
+        transform: rotate(0);
+    }
+    to{
+        transform: rotate(20deg);
+    }
+}

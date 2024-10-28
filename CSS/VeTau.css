@@ -1,0 +1,78 @@
+.suggested-ticket-list {
+    margin-top: 20px;
+}
+
+.ticket-card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ticket-info {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr) auto;
+    align-items: center;
+    gap: 10px;
+}
+
+.departure-time, .arrival-time {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.route, .destination, .duration {
+    font-size: 14px;
+}
+
+.price {
+    font-size: 18px;
+    color: #333;
+}
+
+.select-button {
+    justify-self: end;
+}
+
+
+.ticket-booking-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.ticket-booking-form {
+    border: 2px solid #ccc;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+}
+
+.ticket-booking-form h3 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.btn-primary {
+    width: 100%;
+}
+
+.ticket-booking-main-container {
+margin-top: 50px;
+margin-bottom: 50px;
+}
+
+.suggested-tickets {
+border: 2px solid #ccc;
+padding: 30px;
+border-radius: 10px;
+background-color: #f9f9f9;
+box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+margin-bottom: 30px;
+}

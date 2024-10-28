@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TourWord Sân Mây Đà Lạt</title>
+    <link rel="website icon" type="png" href="../IMG/logo.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="../bootstrap/bootstrap.min.css">
+    <script src="../bootstrap/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="../CSS/GiaoDienSP.css">
+    <link rel="stylesheet" href="../CSS/responsive.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <script src="../JS/jquery-3.4.1.min.js"></script>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row row_header">
+            <div class="row row_1">
+                <ul class="ul_left">
+                    <li><a href="#">Kênh đối tác</a></li>
+                    <li style="color: white;">|</li>
+                    <li><a href="#">Trở thành thành viên</a></li>
+                    <li style="color: white;">|</li>
+                    <li style="color: white;"><a href="#">Kết nối</a></li>
+                    <li><a href="#"><img src="../IMG/MXH/icon_fb.png" alt=""></a></li>
+                    <li><a href="#"><img src="../IMG/MXH/icon_ig.png" alt=""></a></li>
+                </ul>
+
+                <ul class="ul_right text-end">
+                    <li><a href="#">Thông báo</a></li>
+                    <li style="color: white;">|</li>
+                    <li><a href="../HTML/DangKy.html">Đăng ký</a></li>
+                    <li style="color: white;">|</li>
+                    <li><a href="../HTML/DangNhap.html">Đăng nhập</a></li>
+                </ul>
+            </div>
+
+            <nav class="navbar navbar-expand-md navbar-light bg-light p-0">
+                <div class="container row_2">
+                    <a class="logo2" href="../HTML/Home.html">
+                        <img id="logo-clockworld2" src="../IMG/logo.jpg" alt="">
+                        <i id="text_tourworld">TourWorld</i>
+                    </a>
+
+                    <div class="btn_menu">
+                        <button class="navbar-toggler d-lg-none" id="btn_navbar" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    </div>
+
+                    <a class="nav-link dropdown-toggle" data-bs-toggle="modal" data-bs-target=".modal_address"
+                        id="li_address2" href="#">
+                        <br><span>Hồ Chí Minh</span>
+                    </a>
+
+                    <form class="d-flex my-2 my-lg-0 form_search2">
+                        <input class="search2" type="text" placeholder="Bạn muốn đi đâu?" autofocus>
+                    </form>
+
+                    <div class="collapse navbar-collapse menu_1" id="collapsibleNavId">
+                        <ul class="navbar-nav">
+                            <li class="nav-item m-0 li_logo">
+                                <a class="nav-link logo" href="../HTML/Home.html">
+                                    <img id="logo-clockworld" src="../IMG/logo.jpg" alt="">
+                                    <i id="text_clockworld">TourWorld</i>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../HTML/Home.html"><i class="bi bi-house"></i>Trang chủ</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../HTML/GioiThieu.html">Giới thiệu</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../HTML/Sitemap.html">Sitemap</a>
+                            </li>
+                            <li class="nav-item text-center address1" id="">
+                                <a class="nav-link dropdown-toggle" data-bs-toggle="modal" data-bs-target=".modal_address"
+                                    id="li_address" href="#">
+                                    <br><span>Hồ Chí Minh</span>
+                                </a>
+                            </li>
+                            <li class="nav-item" id="input_search">
+                                <a class="nav-link" id="search" style="padding-right: 0;" href="#">
+                                    <form class="d-flex my-2 my-lg-0 form_search">
+                                        <input class="search" type="text" placeholder="Bạn muốn đi đâu?" autofocus>
+                                    </form>
+                                </a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown"
+                                    aria-haspopup="true" aria-expanded="false">
+                                    <img id="dong_ho" src="../IMG/tour.png" alt="">
+                                    Tour
+                                </a>
+                                <div class="dropdown-menu" style="width: 150px;" aria-labelledby="dropdownId">
+                                    <a class="dropdown-item p-0"
+                                        href="../HTML/TourTrongNuoc.html">Trong nước</a>
+                                    <a class="dropdown-item p-0"
+                                        href="../HTML/TourNgoaiNuoc.html">Ngoài nước</a>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../HTML/VeTau.html">
+                                    <img id="smartWatch" src="../IMG/VeTau/veTau.jpg" alt=""></i> Vé tàu</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../HTML/HoiDap.html">Hỏi đáp</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                    <img src="../IMG/icon_cart.png" id="icon_cart" alt="">
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#" id="account">
+                                    <img src="../IMG/icon_user.png" id="icon_account" alt="">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        <div class="row content">
+            <div class="content-left">
+                <div class="content-left-top">
+                    <img src="../IMG/DaLat.jpg" alt="" class="img_clock">
+                    <div class="price">
+                        <h2>Sân Mây Đà Lạt</h2>
+                        <p>3 ngày 2 đêm || 2 người</p>
+                        <p>
+                            Ngày khởi hàng: 20/10/2XXX <br>
+                            Địa điểm đến: Đà Lạt <br>
+                            Hình thức: Xe giường nằm <br>
+                            Xuất phát từ: Thành phố HCM <br>
+                        </p>
+                        <span class="price-detail">5.970.000đ</span>
+                        <a href="#" class="btn add" data-bs-toggle="modal" data-bs-target="#bookingModal" data-price="5970000" data-days="3 ngày 2 đêm" data-people="2">Đặt Tour</a>
+                        <a href="#" class="btn contact">Liên hệ xem Tour</a>
+                    </div>
+                </div>
+
+                <div class="content-left-bottom">
+                    <h2 class="heading">Thông tin chuyến đi</h2>
+                    <div class="detail">
+                        <ul>
+                            <li>- Tham quan Phim trường Mongo Land.</li>
+                            <li>- Trải nghiệm cung đường trượt phao khô dài và cao nhất tại Đà Lạt + trượt cỏ thỏa thích hoàn toàn miễn phí, không giới hạn số lần.</li>
+                            <li>- Tham gia giao lưu văn hóa Cồng Chiêng Tây Nguyên, quý khách sẽ được tham dự nghi lễ và tiếp đó là lễ hội.</li>
+                            <li>- Chiêm ngưỡng các đám mây thơ mộng</li>
+                        </ul>
+                        <p>Cho dù được mệnh danh là thành phố ngàn thông, thành phố hoa hay thành phố sương mù… 
+                            thì Đà Lạt vẫn luôn có sức quyến rũ đặc biệt đối với nhiều du khách trong nước và thế giới.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="content-right">
+                <h2 class="heading">TẠI SAO QUÝ KHÁCH NÊN CHỌN </h2>
+                <ul>
+                    <li><a href="#!">*Dịch vụ hậu mãi</a></li>
+                    <li><a href="#!">*Luôn cập nhật mẫu mới liên tục,phù hợp mọi lứa tuổi</a></li>
+                    <li><a href="#!">*Nhân viên hướng dẫn tận tâm</a></li>
+                    <li><a href="#!">*Đáp ứng đủ tất cả các yêu cầu của khách hàng</a></li>
+                    <li><a href="#!">*Hoàn tiền nếu gói Tour không giống như mô tả</a></li>
+                    <li><a href="#!">*Miễn phí trung chuyển khách hàng trong tầm 10km</a></li>
+                    <li><a href="#!">*Tư vấn kiến thức chuyên môn sâu, thật tâm và hữu dụng</a></li>
+                </ul>
+
+                <div class="zalo">
+                    <a href="#"><i class="fa-solid fa-phone-flip"></i></a>
+                </div>
+
+                <div class="mes">
+                    <a href="#"><i class="fa-brands fa-facebook-messenger"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="row footer">
+            <div class="col-md-12 col_footer1">
+                <div class="text_col_footer1">
+                    <h5>LIÊN HỆ HỖ TRỢ</h5>
+                    <p><i class="fa-solid fa-phone"></i> Hotline 1: <span>032.848.2508</span></p>
+                    <p><i class="fa-solid fa-phone"></i> Hotline 2: <span>034.872.0408</span></p>
+                </div>
+            </div>
+
+            <div class="col-sm-12 col_footer2">
+                <div class="text_col_footer2">
+                    <h5>ĐỊA CHỈ</h5>
+                    <p><i class="fa-solid fa-location-dot"></i> 
+                        <a href="https://s.pro.vn/suU8">12, Nguyễn Văn Bảo, P.4, Gò Vấp, Hồ Chí Minh</a>
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-sm-12 footer_contact">
+                <div class="text_footer_contact1">
+                    <h5>KẾT NỐI</h5>
+                    <p>
+                        <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.youtube.com/"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="https://www.tiktok.com/"><i class="fa-brands fa-tiktok"></i></a>
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-sm-12 footer_contact2">
+                <div class="text_footer_contact2">
+                    <h5>HỖ TRỢ KHÁCH HÀNG</h5>
+                    <p>Quy định chung</p>
+                    <p>Chính sách bảo hành</p>
+                    <p>Chính sách bảo mật</p>
+                </div>
+            </div>
+
+            <div class="col-sm-12 footer_img">
+                <div class="text_footer_img">
+                    <h5>CHỨNG NHẬN</h5>
+                    <a href="#"><img src="../IMG/bo_cong_thuong.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+
+        <!--modal dia diem-->
+        <div id="mymodal" class="modal fade modal_address" role="dialog">
+            <div class="modal-dialog modal_dialog_css">
+                <div class="modal-content">
+                    <div class="modal-header modal_header_css">
+                        <h4 style="width: 100%;" class="text-center">Địa điểm du lịch</h4>
+                        <div class="text-end close"><button type="button" class="close1 text-end"
+                                data-bs-dismiss="modal">&times;</button></div>
+                    </div>
+
+                    <div class="modal-body modal_body_css">
+                        <select name="" id="tinh">
+                            <option value="">Chọn tỉnh/thành phố</option>
+                            <option value="Hồ Chí Minh">Hồ Chí Minh</option>
+                            <option value="Đà Nẵng">Đà Nẵng</option>
+                            <option value="Hà Nội">Hà Nội</option>
+                        </select>
+
+                        <select name="" id="quan">
+                            <option value="">Chọn quận/huyện</option>
+                            <option value="Quận 1">Quận 1</option>
+                            <option value="Quận 2">Quận 2</option>
+                            <option value="Quận 3">Quận 3</option>
+                        </select>
+
+                        <select name="" id="phuong">
+                            <option value="">Chọn phường/xã</option>
+                            <option value="Phường 1">Phường 1</option>
+                            <option value="Phường 2">Phường 2</option>
+                            <option value="Phường 3">Phường 3</option>
+                        </select>
+                    </div>
+
+                    <div class="modal-footer modal_footer_css">
+                        <button class="btn btn-primary xac_nhan_css" data-bs-dismiss="modal" id="xacNhan">Xác
+                            nhận</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+<!-- Modal Đặt Tour -->
+<div id="bookingModal" class="modal fade" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Phiếu Đặt Tour</h5>
+                <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form id="bookingForm">
+                    <div class="mb-3">
+                        <label for="fullName" class="form-label">Họ và tên:</label>
+                        <input type="text" class="form-control" id="fullName" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="phoneNumber" class="form-label">Số điện thoại:</label>
+                        <input type="tel" class="form-control" id="phoneNumber" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email:</label>
+                        <input type="email" class="form-control" id="email" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="tourDays" class="form-label">Thời gian:</label>
+                        <input type="text" class="form-control" id="tourDays" readonly>
+                    </div>
+                    <div class="mb-3">
+                        <label for="tourPeople" class="form-label">Số lượng người:</label>
+                        <input type="text" class="form-control" id="tourPeople" readonly>
+                    </div>
+                    <div class="mb-3">
+                        <label for="tourPrice" class="form-label">Giá Tour:</label>
+                        <input type="text" class="form-control" id="tourPrice" readonly>
+                    </div>
+                    <div class="mb-3">
+                        <label for="specialRequests" class="form-label">Yêu cầu đặc biệt:</label>
+                        <textarea class="form-control" id="specialRequests" rows="3"></textarea>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Đóng</button>
+                <button type="button" class="btn btn-primary" id="confirmBooking">Xác nhận đặt tour</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+</body>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        // Lấy tất cả các nút "Đặt Tour"
+        const bookingButtons = document.querySelectorAll('.btn.add');
+        const tourPriceInput = document.getElementById('tourPrice');
+        const tourDaysInput = document.getElementById('tourDays');
+        const tourPeopleInput = document.getElementById('tourPeople');
+
+        bookingButtons.forEach(button => {
+            button.addEventListener('click', function () {
+                // Lấy thông tin từ thuộc tính data
+                const price = button.getAttribute('data-price');
+                const days = button.getAttribute('data-days');
+                const people = button.getAttribute('data-people');
+
+                // Cập nhật giá vào input của modal
+                if (tourPriceInput) {
+                    tourPriceInput.value = new Intl.NumberFormat('vi-VN', { style: 'currency', currency: 'VND' }).format(price);
+                }
+
+                // Cập nhật số ngày vào input của modal
+                if (tourDaysInput) {
+                    tourDaysInput.value = days;
+                }
+
+                // Cập nhật số lượng người vào input của modal
+                if (tourPeopleInput) {
+                    tourPeopleInput.value = people;
+                }
+            });
+        });
+
+        // Xác nhận đặt tour và thực hiện thanh toán ảo
+        const confirmBookingButton = document.getElementById('confirmBooking');
+        const bookingForm = document.getElementById('bookingForm');
+
+        if (confirmBookingButton && bookingForm) {
+            confirmBookingButton.addEventListener('click', function () {
+                // Kiểm tra hợp lệ của biểu mẫu trước khi gửi
+                if (!bookingForm.checkValidity()) {
+                    alert("Vui lòng điền đầy đủ thông tin trước khi xác nhận.");
+                    bookingForm.reportValidity();
+                    return;
+                }
+
+                // Lấy thông tin từ các trường trong modal
+                const fullName = document.getElementById('fullName').value.trim();
+                const phoneNumber = document.getElementById('phoneNumber').value.trim();
+                const email = document.getElementById('email').value.trim();
+
+                // Mô phỏng quá trình thanh toán ảo
+                alert("Đang tiến hành thanh toán... Vui lòng chờ trong giây lát.");
+
+                // Mô phỏng quá trình thanh toán mất 3 giây
+                setTimeout(function () {
+                    // Xác suất thanh toán thành công hoặc thất bại (giả lập)
+                    const isSuccess = Math.random() < 0.8; // 80% thành công, 20% thất bại
+
+                    if (isSuccess) {
+                        alert(`Thanh toán thành công! Cảm ơn ${fullName} đã đặt tour. Chúng tôi sẽ liên hệ với bạn sớm.`);
+                    } else {
+                        alert("Thanh toán thất bại. Vui lòng thử lại hoặc liên hệ với chúng tôi để được hỗ trợ.");
+                    }
+
+                    // Ẩn modal sau khi quá trình thanh toán kết thúc
+                    const bookingModal = bootstrap.Modal.getInstance(document.getElementById('bookingModal'));
+                    bookingModal.hide();
+                }, 3000); // Mô phỏng thời gian chờ 3 giây để xử lý thanh toán
+            });
+        }
+    });
+</script>
